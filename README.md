@@ -4,16 +4,16 @@ Welcome to the JavaScript and HTML/CSS Fundamentals Quiz! This quiz is designed 
 
 ![Programming Quiz Responive website](assets/images/responsive.png)
 
-[View Programming Quiz Github pages](https://github.com/mehatabpathan/quiz-game "View Programming Quiz Github pages")
+[View Programming Quiz Github pages](https://github.com/MastanYuvi/programming_quiz.git "View Programming Quiz Github pages")
 
-[View Programming Quiz Live Website](https://mehatabpathan.github.io/quiz-game/ "View Programming Quiz Live Website")
+[View Programming Quiz Live Website](https://github.com/MastanYuvi/programming_quiz.git "View Programming Quiz Live Website")
 
 ![Static Badge](https://img.shields.io/badge/Last_Commit-October-red)
 ![Static Badge](https://img.shields.io/badge/Contributors-1-blue)
 ![Static Badge](https://img.shields.io/badge/Languages-3-greens)
 
-
 ## User Stories
+
 - As a user, I want to navigate to different sections of the website so that I can choose the quiz I want to play.
     <details><summary>Screenshots</summary>
     <img src="assets/images/navigationbar.png">
@@ -35,17 +35,18 @@ Welcome to the JavaScript and HTML/CSS Fundamentals Quiz! This quiz is designed 
 - As a user, I want the quiz to be visually appealing and easy to understand so that I can enjoy my experience.
     <details><summary>Screenshots</summary>
     <img src="assets/images/questions.png">
-    </details> 
+    </details>
 - As a user, I want the 404 page to be visible when i press the wrong url it should show the Error page.
     <details><summary>Screenshots</summary>
     <img src="assets/images/404page.png">
     </details>
 
 ## Features
+
 ### Start Page
 
 - Landing page of Programming Quiz. Home page with navigation links.
-- Links to JavaScript Quiz, HTML/CSS Quiz, About, and Contact pages. 
+- Links to JavaScript Quiz, HTML/CSS Quiz, About, and Contact pages.
 - Start buttons for JavaScript Quiz and HTML/CSS Quiz.
 
 ![Start page](assets/images/startpage.png)
@@ -85,11 +86,13 @@ Welcome to the JavaScript and HTML/CSS Fundamentals Quiz! This quiz is designed 
 ![About Page](assets/images/aboutpage.png)
 
 #### Contact Page
- - The page provides clear instructions and feedback to the user. If there are any issues, suggestions, or questions, users are encouraged to reach out. The success message confirms to the user that their message has been successfully submitted.
+
+- The page provides clear instructions and feedback to the user. If there are any issues, suggestions, or questions, users are encouraged to reach out. The success message confirms to the user that their message has been successfully submitted.
 
 ![Contact Page](assets/images/contactpage.png)
 
 #### 404 Page
+
 - When a user accesses a non-existing URL on this website, this 404 error page will be displayed to them.
 
 ![404 Page](assets/images/404page.png)
@@ -106,9 +109,9 @@ The website uses bright and light colours using color gradient for more variety.
 
 1. As a user, I want to navigate to different sections of the website so that I can choose the quiz I want to play.
 
-| **Feature**  | **Action**                  | **Expected Result**                                          | **Actual Result** |
-| ------------ | --------------------------- | ------------------------------------------------------------ | ----------------- |
-| Welcome Page | Click on the Home button  | It should show 2 quiz boxes as expected | Works as expected |
+| **Feature**  | **Action**               | **Expected Result**                     | **Actual Result** |
+| ------------ | ------------------------ | --------------------------------------- | ----------------- |
+| Welcome Page | Click on the Home button | It should show 2 quiz boxes as expected | Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="assets/images/navi.png">
@@ -116,10 +119,9 @@ The website uses bright and light colours using color gradient for more variety.
 
 2. As a user, I want to enter my name and email before starting the quiz so that I can be identified and receive my results.
 
-| **Feature**  | **Action**                  | **Expected Result**                                          | **Actual Result** |
-| ------------ | --------------------------- | ------------------------------------------------------------ | ----------------- |
-|  Enter you  Information details | we need to enter name and emailid and press enter | At the end of the score we will get the mail in our registered email | Works as expected |
-
+| **Feature**                   | **Action**                                        | **Expected Result**                                                  | **Actual Result** |
+| ----------------------------- | ------------------------------------------------- | -------------------------------------------------------------------- | ----------------- |
+| Enter you Information details | we need to enter name and emailid and press enter | At the end of the score we will get the mail in our registered email | Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="assets/images/emailjs.png">
@@ -127,9 +129,9 @@ The website uses bright and light colours using color gradient for more variety.
 
 3. As a user, I want to be able to replay the quiz so that I can try to improve my score.
 
-| **Feature**  | **Action**                  | **Expected Result**                                          | **Actual Result** |
-| ------------ | --------------------------- | ------------------------------------------------------------ | ----------------- |
-|  Replay Button | when we press the button it should take to the quiz box | it takes to the quiz box we can replay the game again | Works as expected |
+| **Feature**   | **Action**                                              | **Expected Result**                                   | **Actual Result** |
+| ------------- | ------------------------------------------------------- | ----------------------------------------------------- | ----------------- |
+| Replay Button | when we press the button it should take to the quiz box | it takes to the quiz box we can replay the game again | Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="assets/images/replaybutton.png">
@@ -137,48 +139,48 @@ The website uses bright and light colours using color gradient for more variety.
 
 4. As a user, I want the 404 page to be visible when i press the wrong url it should show the Error page.
 
-
-| **Feature**  | **Action**                  | **Expected Result**                                          | **Actual Result** |
-| ------------ | --------------------------- | ------------------------------------------------------------ | ----------------- |
-|  404 Error page | when we press the incorrect URL |It should show the error page | Works as expected |
+| **Feature**    | **Action**                      | **Expected Result**           | **Actual Result** |
+| -------------- | ------------------------------- | ----------------------------- | ----------------- |
+| 404 Error page | when we press the incorrect URL | It should show the error page | Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="assets/images/404page.png">
 </details>
 
 ### How I tested
-| What test was completed | Passed? Y(yes)/N(no) |
-|:-----------------------:|:-------------------:|
-| Responsiveness on Samsung A41 Phone Portrait | Y |
-| Responsiveness on Samsung A41 Phone Landscape | Y |
-| Responsiveness on Teclast Tablet Portrait | Y |
-| Responsiveness on Teclast Tablet Lanscape | Y |
-| Responsive behaviours on over 12 mobile device settings in chrome dev tools | Y |
-| Responsiveness om desktop Google chrome 1920px x 1080px | Y |
-| Responsiveness om desktop Google chrome 5120px x 1440px| Y |
-| Responsiveness om desktop Google chrome 2560px by 1440px | Y |
-| Google chrome lighthouse | Y |
-| HTML Validation All | Y |
-| Contrast checker | Y |
-| CSS Validation | Y |
-| JavaScript Validation script.js | Y |
-| JavaScript Validation jsquestions.js | Y |
-| JavaScript Validation htmlcssquestions.js | Y |
+
+|                           What test was completed                           | Passed? Y(yes)/N(no) |
+| :-------------------------------------------------------------------------: | :------------------: |
+|                Responsiveness on Samsung A41 Phone Portrait                 |          Y           |
+|                Responsiveness on Samsung A41 Phone Landscape                |          Y           |
+|                  Responsiveness on Teclast Tablet Portrait                  |          Y           |
+|                  Responsiveness on Teclast Tablet Lanscape                  |          Y           |
+| Responsive behaviours on over 12 mobile device settings in chrome dev tools |          Y           |
+|           Responsiveness om desktop Google chrome 1920px x 1080px           |          Y           |
+|           Responsiveness om desktop Google chrome 5120px x 1440px           |          Y           |
+|          Responsiveness om desktop Google chrome 2560px by 1440px           |          Y           |
+|                          Google chrome lighthouse                           |          Y           |
+|                             HTML Validation All                             |          Y           |
+|                              Contrast checker                               |          Y           |
+|                               CSS Validation                                |          Y           |
+|                       JavaScript Validation script.js                       |          Y           |
+|                    JavaScript Validation jsquestions.js                     |          Y           |
+|                  JavaScript Validation htmlcssquestions.js                  |          Y           |
 
 ### bugs encountered
 
-| Bugs/Issues Encountered          | How problem was fixed                               | Fixed Y(yes)/N(no) |
-|:--------------------------------:|:---------------------------------------------------:|:------------------:|
-| Selected question string comparing was failing due to special chareters | Used element.textContent insted of Text | Y |
-| Questions Were Not Displaying | Was a typo in  file name in script.js | Y |
-| When deployed in github, images were not displaying | Was due to / infrom of image src path, removed it | Y |
-| Author Links appearing underneath other elements at certain resolutions | Removed Z index | Y |
-| How to div was displaying upon load | Added hidden class to it to hide it on load | Y |
-| Responsive css attempt of landscape mode set everything in an od skew to left | Removed the css that caused issue | Y |
-| Font was difficult to read for some users | Replaced font with a more user friendly font | Y |
-| Hover effect remains active after selecting an answer and next question is loading | Added media querry to remove hover effect on touch devices | Y |
-| Hover effect disabled on all devices | Added missing media querry to the css | Y |
-| Website is not responsive | Added media queries for container height in css | Y |
+|                              Bugs/Issues Encountered                               |                   How problem was fixed                    | Fixed Y(yes)/N(no) |
+| :--------------------------------------------------------------------------------: | :--------------------------------------------------------: | :----------------: |
+|      Selected question string comparing was failing due to special chareters       |          Used element.textContent insted of Text           |         Y          |
+|                           Questions Were Not Displaying                            |            Was a typo in file name in script.js            |         Y          |
+|                When deployed in github, images were not displaying                 |     Was due to / infrom of image src path, removed it      |         Y          |
+|      Author Links appearing underneath other elements at certain resolutions       |                      Removed Z index                       |         Y          |
+|                        How to div was displaying upon load                         |        Added hidden class to it to hide it on load         |         Y          |
+|   Responsive css attempt of landscape mode set everything in an od skew to left    |             Removed the css that caused issue              |         Y          |
+|                     Font was difficult to read for some users                      |        Replaced font with a more user friendly font        |         Y          |
+| Hover effect remains active after selecting an answer and next question is loading | Added media querry to remove hover effect on touch devices |         Y          |
+|                        Hover effect disabled on all devices                        |           Added missing media querry to the css            |         Y          |
+|                             Website is not responsive                              |      Added media queries for container height in css       |         Y          |
 
 ---
 
@@ -197,7 +199,6 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 <img src="assets/images/cssjiqsaw.pn"></details>
 
 - checked with css validator[W3 CSS Validation Image](assets/images/cssvalidationss.png "css validation") No CSS issues
-
 
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website. Page pass with no errors no warnings to show.
 
@@ -218,8 +219,8 @@ JSHint Static Code Analysis Tool for JavaScript was used to validate the Javascr
 <details><summary>HTMLCSS Questions</summary>
 <img src="assets/images/htmlcssqvaliss.png"></details>
 
-
 ### Contrast
+
 - Checked all pages with [A11Y contrast checker](https://color.a11y.com/) Any contrast issues?
 - No automated color contrast issues found on the webpage tested
 
@@ -237,7 +238,7 @@ I also used the following websites to test responsiveness:
 
 http://www.responsinator.com/?url=https%3A%2F%2Fmehatabpathan.github.io%2Fquiz-game%2F
 
-https://ui.dev/amiresponsive?url=https://mehatabpathan.github.io/quiz-game/
+https://ui.dev/amiresponsive?url=https://github.com/MastanYuvi/programming_quiz.git
 
 #### Friends and Family User Testing
 
@@ -253,55 +254,51 @@ Friends and family members were asked to review the site and documentation to po
 
 - None.
 
-
-
 ### JavaScript
 
 All Scripts checked with [JSHint](https://jshint.com/)
 
-| **Sctipt** | **Any Errors?** | **Warnings?** | Other note worthy comments |
-|:----------:|:---------------:|:-------------:|:--------------------------:|
-| script.js | No Errors | No Warnings  | None |
-| jsquestions.js | No Errors | No Warnings| None |
-| htmlcssquestions.js | No Errors | No Warnings| None |
+|     **Sctipt**      | **Any Errors?** | **Warnings?** | Other note worthy comments |
+| :-----------------: | :-------------: | :-----------: | :------------------------: |
+|      script.js      |    No Errors    |  No Warnings  |            None            |
+|   jsquestions.js    |    No Errors    |  No Warnings  |            None            |
+| htmlcssquestions.js |    No Errors    |  No Warnings  |            None            |
 
 ### Light House
 
-
 [lighthouse ](assets/images/lighthouse.png "view light house")
 
-
-
 ## Deployment
-Used GitHub Pages to bring the site to life [View The Site Here](https://mehatabpathan.github.io/quiz-game/)
+
+Used GitHub Pages to bring the site to life [View The Site Here](https://github.com/MastanYuvi/programming_quiz.git)
 
 ### Local Development
+
 The website was deployed using GitHub Pages by following these steps:
 
 1. In the GitHub repository navigate to the Settings tab
 2. On the left-hand menu select Pages
 3. For the source select Branch: master
-4. After the webpage refreshes automatically you will ses a ribbon on the top saying: "Your site is published at https://mehatabpathan.github.io/quiz-game/
-
+4. After the webpage refreshes automatically you will ses a ribbon on the top saying: "Your site is published at https://github.com/MastanYuvi/programming_quiz.git
 
 #### How To Fork
 
 To fork the depository:
 
 1. Log in or sign up to <https://github.com/>
-2. Go to the repository for this project https://github.com/mehatabpathan/quiz-game
+2. Go to the repository for this project https://github.com/MastanYuvi/programming_quiz.git
 3. Click the fork button in the top right corner
 
 #### How To Clone
 
 1. Log in or sign up to <https://github.com/>
-2. Go to the repository for this project https://github.com/mehatabpathan/quiz-game
+2. Go to the repository for this project https://github.com/MastanYuvi/programming_quiz.git
 3. Click the code button, select whether you'd like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'Git Clone' into the terminal and then paste the link you copied in step 3. Press Enter.
 
-
 ## Technology used
+
 - [HTML](https://www.w3schools.com/html/default.asp)
 - [CSS](https://www.w3schools.com/css/default.asp)
 - [JavaScript](https://www.w3schools.com/js/default.asp)
@@ -315,21 +312,26 @@ To fork the depository:
 - [Wire Frames](https://app.uizard.io/)
 
 ## Wireframes
+
 ### Start Page
+
 [Start page wireframe](assets/images/startwf.png "view Start Page wire frame")
 
 ### Set of Rules
+
 [Set of Rules wireframe](assets/images/rulewf.png "view Set of Rules wire frame")
 
 ### User Information Input
+
 [ User Information Input wireframe](assets/images/infowf.png "view Set of Rules wire frame")
 
 ### Quiz Box
+
 [Quiz Box wireframe](assets/images/quizboxwf.png " view Quiz Box wire frame")
 
 ### Score Card
-[Score Card wireframe](assets/images/scorewf.png "view Score Card wire frame")
 
+[Score Card wireframe](assets/images/scorewf.png "view Score Card wire frame")
 
 ## Credits
 
@@ -357,6 +359,7 @@ Shields.io badges were created for readme.md file using the markup code from:
 <https://shields.io/badges>
 
 **Other Notible Mentions**
+
 - [W3Schools](https://www.w3schools.com/) for inspiration on the loading CSS for use on quiz page and to find out uses for all type of varriables and inspiration to the questions. Invaluable tool so much knowledge for free its crazy.
 
 - [Code Institute](https://codeinstitute.net/) for providing an excellent accelerated learning platform worth every penny.
